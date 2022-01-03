@@ -45,10 +45,16 @@ body {
 
 .section {
     width: 50%;
+    padding: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #000;
 }
 
-.header-section {
+.section-profile {
     display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 30px;
 }
 
 @media (max-width: 768px) {
@@ -57,6 +63,20 @@ body {
     }
 }
 
-.profile-img {
-    order: 0;
+.section-list {
+   padding-left: 30px ;
+}
+
+.contacts-description {
+    font-weight: bold;
+}
+
+.section-English {
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
