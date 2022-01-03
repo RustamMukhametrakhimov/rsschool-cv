@@ -10,10 +10,13 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.4;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 .container {
@@ -35,3 +38,25 @@ body {
     transition: 0.3s;
 }
 
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+}
+
+.header-section {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.profile-img {
+    order: 0;
+}
